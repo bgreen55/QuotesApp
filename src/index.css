@@ -1,0 +1,57 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+}
+
+#root {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+  
+/* I Want to figure out how to make the search Box sit right in the middle
+of the screen */
+.centerScreen {
+  margin: 0;
+  display: flex;
+  place-items: center;
+}
+
+.centerHor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ 
+}
+
+.centerVert {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* place-items: center; */
+  
+}
+
+#singleQuote{
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+  border-radius: 20px;
+  background-color: rgba(210, 180, 140, 0.626);
+  max-width: 2000px;
+  min-width: 300px;
+}
